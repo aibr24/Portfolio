@@ -1,0 +1,35 @@
+body {
+  /* animation-name: maShit;
+  animation-duration: 120s;
+  animation-iteration-count: infinite; */
+  /* background-image: url("uCTMfZ.jpg"); */
+  background-color: rgb(55, 68, 80);
+}
+
+@keyframes maShit {
+  0% {
+    background-color: cadetblue;
+  }
+  50% {
+    background-color: lightslategray;
+  }
+  100% {
+    background-color: darkcyan;
+  }
+  0% {
+    background-color: cadetblue;
+  }
+}
+
+li:hover {
+  background-color: rgb(55, 68, 88);
+  color: white;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
